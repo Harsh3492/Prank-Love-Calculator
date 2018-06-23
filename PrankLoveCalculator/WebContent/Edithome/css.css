@@ -1,0 +1,60 @@
+body{
+background: url("bg.jpg") center center no-repeat fixed;
+background-size: cover;
+font-family: 'Montserrat', sans-serif;
+}
+
+.msgTxt{
+  font-size: 32px;
+}
+@media (max-width:576px) {
+  .msgTxt{
+    font-size: 18px;
+  }
+}
+.pointTxt{
+font-size: 18px;
+}
+@media (max-width:576px) {
+  .pointTxt{
+  font-size: 13px;
+  }
+}
+.inputBox
+{
+	color:white;
+	background: transparent;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-radius:0px;
+	text-align:center;
+	font-size:25px;
+
+}
+.inputBox:hover{
+	color:white;
+	background: transparent;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+
+	border-radius:0px;
+
+}
+.inputBox:focus{
+	color:#d63031;
+	outline: none;
+	box-shadow: none;
+	background: transparent;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-radius:0px
+}
+@media (max-width:576px) {
+  .inputBox{
+    font-size: 15px;
+
+  }
+}

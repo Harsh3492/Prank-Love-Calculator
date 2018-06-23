@@ -1,0 +1,33 @@
+body{
+background: url("bg.jpg") center center no-repeat fixed;
+background-size: cover;
+font-family: 'Montserrat', sans-serif;
+}
+
+.headingtxt{
+  font-size: 25px;
+}
+@media (max-width:576px) {
+  .headingtxt{
+    font-size: 15px;
+  }
+}
+.inputBox{
+  height: 75px;
+  font-size: 25px;
+}
+@media (max-width:576px) {
+  .inputBox{
+    height: 50px;
+    font-size: 13px;
+  }
+}
+.shareTxt{
+  font-size: 20px;
+  color: #00b894;
+}
+@media (max-width:576px) {
+  .shareTxt{
+    font-size: 12px;
+  }
+}

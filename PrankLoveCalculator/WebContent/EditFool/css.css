@@ -1,0 +1,44 @@
+body{
+background: url("bg.jpg") center center no-repeat fixed;
+background-size: cover;
+font-family: 'Montserrat', sans-serif;
+}
+.headText{
+  color: #ecf0f1;
+  margin: 15px;
+  font-size: 25px;
+}
+@media (max-width:576px) {
+  .headText{
+    margin: 10px;
+    font-size: 18px;
+  }
+}
+.msgText{
+  color: #ecf0f1;
+  margin: 15px;
+  font-size: 20px;
+}
+@media (max-width:576px) {
+  .msgText{
+    margin: 10px;
+    font-size: 15px;
+  }
+}
+.clickbtn{
+  font-size: 20px;
+}
+@media (max-width:576px) {
+  .clickbtn{
+    font-size: 15px;
+  }
+}
+.gifImg{
+  height: 250px;
+}
+@media (max-width:576px) {
+  .gifImg{
+    height: 150px;
+  }
+
+}
